@@ -16,8 +16,8 @@
  <!-- START WRAPPER-->
  <div class="wrapper">
      <header>
-     <h1><a href="index.php"><i class="logo fa <?=$logo?>"<?=$logo_color?>>
-     </i>Jessica's IT162 Website</a></h1>
+     <h1><i class="logo fa <?=$logo?>"<?=$logo_color?>>
+     </i>Jessica's IT162 Website</h1>
      <nav class="topnav" id="myTopnav">
      <?=makeLinks($nav1)?>
      <!--
@@ -53,5 +53,5 @@
      </nav> -->
 
 <!-- START LEFT COL -->
-<section>
-  <h2 class="pageID"><<?=$pageID?></h2>
+<!-- <section>
+  <h2 class="pageID"><<?=$pageID?></h2> -->

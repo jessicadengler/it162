@@ -22,6 +22,12 @@ i.logo {
     margin-left:1%; /* this keeps the icon from being squeeezed to the left */
 }
 
+ /* Change background color of navigation on selected page */
+topnav a.selected {
+    background-color: #ccc;
+    color:#000;
+}
+
 
 h1 {
     font-weight: normal;

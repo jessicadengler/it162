@@ -10,8 +10,8 @@ we’ll apply a basename() function to strip off any folder info; storing only t
 
 */
 
-// error message for this!!!!!!!!!!!
-(below ob_start()):
+// error message for this!!!!!!!!!!! 
+ob_start();
 
 //this helps us avoid PHP date errors:
 date_default_timezone_set('America/Los_Angeles');
@@ -24,6 +24,8 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 // echo THIS_PAGE;
 
 // die;
+
+$logo_color = ''; //make logo_color an empty string by default
 
 switch(THIS_PAGE) {
 
